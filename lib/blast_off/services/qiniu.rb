@@ -44,7 +44,7 @@ module BlastOff
       private
 
       def base_path
-        "#{@ipa_file.name}/#{@ipa_file.version}"
+        "#{@ipa_file.name}"
       end
 
       def base_url
